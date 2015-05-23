@@ -27,6 +27,14 @@
                     after_eye(lens, pivot))
     end
 
+@doc """
+The position operator is the operator that corresponds to the position
+observable of a particle.
+**Example:**
+```julia
+positionop(2)
+```
+""" ->
 function positionop(n::Int)
     cop = raiseop(n)
     return scale!(1/sqrt(2.),cop+cop')
