@@ -7,5 +7,5 @@
 
 ## Methods [Exported]
 
-[positionop(n::Int64)](QuBase.md#method__positionop.1)  Run code blocks in the docstrings of the specified module `modname`.
+[positionop(n::Int64)](QuBase.md#method__positionop.1)  The position operator is the operator that corresponds to the position
 
